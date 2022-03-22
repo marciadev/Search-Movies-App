@@ -1,0 +1,74 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.button {
+    background: rgba(216, 40, 9, 0.699);
+    color: black;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.button:hover {
+    background-color: brown;
+    color: white;
+    box-shadow: 0 10px 25px rgba(100, 19, 8, 0.6);
+}
+
+.label {
+    padding-right: 10px;
+    font-size: x-large;
+    font-family: inherit;
+    font-weight: bolder;
+}
+.cont-box{
+    text-align-last: center;
+}
+.inputs {
+    height: 35px;
+    width: 70%;
+    font-size: 25px;
+    font-family: inherit;
+    border-radius: 3px;
+}
+h2 {
+    font-size: x-large;
+    font-style: italic;
+}
+.list {
+    display: inline-grid;
+    justify-items: start;
+}
+ul {
+    display: inline-grid;
+}
+li {
+    justify-content: space-between;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: larger;
+}
+.fav-button {
+    background: rgba(216, 40, 9, 0.699);
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: medium;
+}
+.fav-button:hover {
+    background-color: rgb(250, 246, 6);
+    color: black;
+    box-shadow: 0 10px 25px rgba(248, 3, 3, 0.973);
+}

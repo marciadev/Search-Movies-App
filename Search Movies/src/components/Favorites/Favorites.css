@@ -1,0 +1,29 @@
+.cnt {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.list {
+    display: inline-grid;
+    justify-items: start;
+}
+ul {
+    display: inline-grid;
+    justify-content: space-between;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: x-large;
+    padding-right: 15px;
+}
+.delete-button {
+    background: rgba(247, 19, 2, 0.897);
+    color: rgb(245, 239, 239);
+    border-radius:50%;
+    cursor: pointer;
+    font-size: medium;
+}
+.delete-button:hover {
+    background-color: rgb(250, 124, 6);
+    color: black;
+    box-shadow: 0 10px 25px rgba(248, 3, 44, 0.973);
+}
